@@ -1,0 +1,21 @@
+npm install -g @angular/cli
+ng --version
+
+ng new app-name
+ng serve
+
+ng g c component-name (g = generate c = component)
+ng g c component-name -it (inline templates) -is (inline styles) --skipTests=true (excludes spec.ts file generation)
+
+
+
+### How To Use the .TS Tutorial Files ###
+
+1. Execute 
+    ng new my-app-name
+    ng g c test -it -is --skipTests=true
+2. Delete all content inside
+    test.component.ts
+3. Replace test.component.ts with the content inside MyNotes/0X_TUTORIAL-NAME.ts
+
+###
